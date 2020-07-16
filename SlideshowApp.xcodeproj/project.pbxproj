@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A38973F024C0AAB800B1226F /* HIR96_nekotawakarakaodakedasite_TP_V.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A38973EF24C0AAB800B1226F /* HIR96_nekotawakarakaodakedasite_TP_V.jpg */; };
+		A38973F224C0AAC800B1226F /* tomneko12151297_TP_V.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A38973F124C0AAC800B1226F /* tomneko12151297_TP_V.jpg */; };
+		A38973F424C0AAE500B1226F /* Die.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A38973F324C0AAE500B1226F /* Die.jpg */; };
+		A38973F624C0B2C000B1226F /* ZoomInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38973F524C0B2C000B1226F /* ZoomInViewController.swift */; };
 		A3D1802924AF4A06003CB398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D1802824AF4A06003CB398 /* AppDelegate.swift */; };
 		A3D1802B24AF4A06003CB398 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D1802A24AF4A06003CB398 /* SceneDelegate.swift */; };
 		A3D1802D24AF4A06003CB398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D1802C24AF4A06003CB398 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A38973EF24C0AAB800B1226F /* HIR96_nekotawakarakaodakedasite_TP_V.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HIR96_nekotawakarakaodakedasite_TP_V.jpg; sourceTree = "<group>"; };
+		A38973F124C0AAC800B1226F /* tomneko12151297_TP_V.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomneko12151297_TP_V.jpg; sourceTree = "<group>"; };
+		A38973F324C0AAE500B1226F /* Die.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Die.jpg; sourceTree = "<group>"; };
+		A38973F524C0B2C000B1226F /* ZoomInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomInViewController.swift; sourceTree = "<group>"; };
 		A3D1802524AF4A06003CB398 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D1802824AF4A06003CB398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3D1802A24AF4A06003CB398 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,9 +64,13 @@
 		A3D1802724AF4A06003CB398 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				A38973EF24C0AAB800B1226F /* HIR96_nekotawakarakaodakedasite_TP_V.jpg */,
+				A38973F324C0AAE500B1226F /* Die.jpg */,
+				A38973F124C0AAC800B1226F /* tomneko12151297_TP_V.jpg */,
 				A3D1802824AF4A06003CB398 /* AppDelegate.swift */,
 				A3D1802A24AF4A06003CB398 /* SceneDelegate.swift */,
 				A3D1802C24AF4A06003CB398 /* ViewController.swift */,
+				A38973F524C0B2C000B1226F /* ZoomInViewController.swift */,
 				A3D1802E24AF4A06003CB398 /* Main.storyboard */,
 				A3D1803124AF4A07003CB398 /* Assets.xcassets */,
 				A3D1803324AF4A07003CB398 /* LaunchScreen.storyboard */,
@@ -125,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38973F424C0AAE500B1226F /* Die.jpg in Resources */,
 				A3D1803524AF4A07003CB398 /* LaunchScreen.storyboard in Resources */,
 				A3D1803224AF4A07003CB398 /* Assets.xcassets in Resources */,
+				A38973F224C0AAC800B1226F /* tomneko12151297_TP_V.jpg in Resources */,
 				A3D1803024AF4A06003CB398 /* Main.storyboard in Resources */,
+				A38973F024C0AAB800B1226F /* HIR96_nekotawakarakaodakedasite_TP_V.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38973F624C0B2C000B1226F /* ZoomInViewController.swift in Sources */,
 				A3D1802D24AF4A06003CB398 /* ViewController.swift in Sources */,
 				A3D1802924AF4A06003CB398 /* AppDelegate.swift in Sources */,
 				A3D1802B24AF4A06003CB398 /* SceneDelegate.swift in Sources */,
