@@ -40,8 +40,8 @@
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2z-pz-B4u">
-                                <rect key="frame" x="249" y="648" width="66" height="30"/>
-                                <state key="normal" title="再生/停止"/>
+                                <rect key="frame" x="284" y="648" width="31" height="30"/>
+                                <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t3S-qu-aIH"/>
                                 </connections>
