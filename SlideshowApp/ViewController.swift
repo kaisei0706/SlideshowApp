@@ -11,23 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
-    @IBAction func onTapAction(_ sender: Any) {
-        self.performSegue(withIdentifier: "toZoomIn", sender: nil)
-        // タイマーを停止
-        self.timer.invalidate()
-        // nil にして再び再生(nil の時にタイマー生成)
-        self.timer = nil
-        
-        // 再生・停止ボタンタップ時に進むボタン・戻るボタンのタップ非表示
-        nextbutton.isEnabled = true
-        backbutton.isEnabled = true
-        // ボタンの名前を再生とする
-        storybutton.setTitle("再生", for: .normal)
-        // 背景色・ボタン内テキストサイズを戻す
-        self.view.backgroundColor = UIColor.white
-        storybutton.titleLabel?.font =
-        UIFont.systemFont(ofSize: 20)
-    }
+    
+   
 
     
     
@@ -161,8 +146,28 @@ class ViewController: UIViewController {
             }
         }
     
+    @IBAction func onTapAction(_ sender: Any) {
+           if self.timer == nil {
+               self.performSegue(withIdentifier: "toZoomIn", sender: nil)
+           
+           } else if self.timer != nil {
+               self.performSegue(withIdentifier: "toZoomIn", sender: nil)
+            
+               // タイマーを停止
+               self.timer.invalidate()
+               // nil にして再び再生(nil の時にタイマー生成)
+               self.timer = nil
+               // 再生・停止ボタンタップ時に進むボタン・戻るボタンのタップ非表示
+               nextbutton.isEnabled = true
+               backbutton.isEnabled = true
+               // ボタンの名前を再生とする
+               storybutton.setTitle("再生", for: .normal)
+               // 背景色・ボタン内テキストサイズを戻す
+               self.view.backgroundColor = UIColor.white
+               storybutton.titleLabel?.font =
+               UIFont.systemFont(ofSize: 20)
+            }
+    }
     
 
 }
-    
-
